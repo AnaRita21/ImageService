@@ -1,0 +1,22 @@
+source:
+  root:
+    url: https://image.shutterstock.com/image-photo/
+cloud:
+  aws:
+    credentials:
+      access-key: ${access-key}
+      secret-key: ${secret-key}
+    region:
+      static: eu-west-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: debijenkorfimagesbucket
+
+spring:
+  datasource:
+    url: ${datasource-url}
+    username: ${datasource-username}
+    password: ${datasource-password}

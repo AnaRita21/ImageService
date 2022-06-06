@@ -1,0 +1,25 @@
+source:
+  root:
+    url: https://image.shutterstock.com/image-photo/
+cloud:
+  aws:
+    credentials:
+      access-key: AKIA54HY64EQFVUOLWJ6
+      secret-key: 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
+    region:
+      static: eu-west-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: debijenkorfimagesbucket
+
+spring:
+  datasource:
+    url: jdbc:mysql://develop-debijenkorf.cjnc90xjaykf.eu-west-2.rds.amazonaws.com:3306/DEVDEBIJENKORF
+    username: admin
+    password: admin1234
+
+server:
+  port: 8096

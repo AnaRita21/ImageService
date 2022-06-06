@@ -1,0 +1,16 @@
+image-types:
+  properties:
+    thumbnail:
+      height: 100
+      width: 100
+      quality: 2
+      scaleType: SKEW
+      type: PNG
+
+    detail-large:
+      height: 200
+      width: 300
+      quality: 90
+      scaleType: FILL
+      fill-color: 000000
+      type: JPG
